@@ -22,19 +22,19 @@ foreign key (b_id) references books(b_id)
 
 ------inserting data--------
 insert into bookdb.books values
-(1,'cell biology',1998,599),
-(2,'molecular biology',2000,999),
-(3,'biochemistry',2007,799),
-(4,'microbiology',2015,1199),
-(5,'genetic engineering',2021,2599);
+(1,'english',1998,599),
+(2,'biology',2000,999),
+(3,'physics',2007,799),
+(4,'chemistry',2015,1199),
+(5,'computer science',2021,2599);
 
 ------inserting data--------
 insert into bookdb.authors values
-(1,'sanjeev',40,2),
-(2,'gupta',35,3),
-(3,'dennis',56,5),
-(4,'robert c',46,1),
-(5,'joh paul',43,4);
+(1,'shakespeare',40,2),
+(2,'mendel',35,3),
+(3,'galileo',56,5),
+(4,'rutherford',46,1),
+(5,'charles',43,4);
 
 ------------Retrieve all the books from the database----------
 SELECT * FROM bookdb.books;
